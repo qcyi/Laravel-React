@@ -15,8 +15,18 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            height: {
+                "10v": "10vh",
+                "15v": "15vh",
+                "65v": "65vh",
+            }, colors: {
+                "header": "#3D5A80",
+                "nav": "#98C1D9",
+                "main": "#E0FBFC",
+                "footer": "#293241",
+            }
         },
     },
 
-    plugins: [forms],
+    plugins: [forms, require("daisyui")],
 };

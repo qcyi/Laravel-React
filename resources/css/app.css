@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.myHeader {
+    @apply
+    hidden bg-header text-white
+    sm:flex flex-row h-15v  justify-around items-center
+}
